@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SRO Tech</string>
+    <string name="title_activity_main">SRO Tech</string>
+    <string name="package_name">fi.raamattuopisto.srotech</string>
+    <string name="custom_url_scheme">fi.raamattuopisto.srotech</string>
+</resources>
