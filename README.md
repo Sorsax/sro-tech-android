@@ -4,7 +4,7 @@ SRO Tech on opiston tekniikkaväen tukena toimiva mobiilisovellus. Se pitää ka
 
 ## Projektin yleiskuvaus
 
-Tiedot haetaan suoraan Google Sheetsistä. Sheetsin kanssa *saattaa* tulla CORS-ongelmia (kyllä, tiedot haetaan HTTP GET-pyynnöillä :DD), sheetdb meinaan sallii vaan 500 pyyntöä kuussa ilmaisella joten ne säästetään ilmoittautumisille.
+Tiedot haetaan suoraan Google Sheetsistä. Sheetsin kanssa käytetään CORS välipalvelinta (kyllä, tiedot haetaan HTTP GET-pyynnöillä :DD), sheetdb meinaan sallii vaan 500 pyyntöä kuussa ilmaisella joten ne säästetään ilmoittautumisille.
 Tähän väliin huomautankin että sheetdb on ohi ja nykyään tiedot menee POSTina Json muodossa Google App scriptiin joka pyrkii parhaansa mukaan lisäämään ne sheetsiin.
 
 Iljapuolella käytössä ovat:
